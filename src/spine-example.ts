@@ -11,7 +11,5 @@ export function getSpine(): Spine {
     spineExample.stateData.setMix("running", "jump", 0.2);
     spineExample.stateData.setMix("jump", "running", 0.4);
 
-    spineExample.state.setAnimation(0, "running", true);
-
     return spineExample;
 }
